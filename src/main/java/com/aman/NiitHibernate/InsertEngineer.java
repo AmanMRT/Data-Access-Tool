@@ -1,9 +1,5 @@
 package com.aman.NiitHibernate;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.function.Consumer;
-
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -23,12 +19,6 @@ public class InsertEngineer
 		 eng.setEskill("Java4");
 		 eng.setEprojectID(104);
 		 
-//		 List<Engineer> list = new ArrayList<>();
-//		 list.add(new Engineer(1,"Aman1","Meerut1","Developer1","Java1",101));
-//		 list.add(new Engineer(2,"Aman2","Meerut2","Developer2","Java2",102));
-//		 list.add(new Engineer(3,"Aman3","Meerut3","Developer3","Java3",103));
-//		 list.add(new Engineer(4,"Aman4","Meerut4","Developer4","Java4",104));
-//		 list.add(new Engineer(5,"Aman5","Meerut5","Developer5","Java5",105));
 
 		Configuration con = new Configuration().configure().addAnnotatedClass(Engineer.class);	//Config to use SessionFactory
 	    

@@ -22,10 +22,8 @@ public class Engineer {
 	public String eskill;
 	@Column(name="ProjectId")
 	public int eprojectID;
+	 
 	
-	public Engineer(int i, String string, String string2, String string3, String string4, int j) {
-		// TODO Auto-generated constructor stub
-	}
 	public Engineer() {
 		// TODO Auto-generated constructor stub
 	}
