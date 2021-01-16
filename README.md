@@ -20,3 +20,5 @@ Dependencie
 For Database configuration/Dialet 
 1. hibernate.cfg.xml
 
+For HQL Queries
+1. HQLQueries.java
